@@ -1,8 +1,24 @@
-const myFunction_1 = () => {
-    let a = 1 + 1
-    console.log(`fuc no parameter and return ${a}`)
+const myFunction_1 = (name) => {
+    console.log(`Hello Mr. ${name}`)
 }
 
-const myFunction_2 = () => {
-    
+const sum = (a, b) => {
+    return a + b
 }
+
+const even = (number) => {
+    if (number % 2 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+
+// shortcut
+const evens = (number) => number % 2 === 0
+
+
+// myFunction_1('Khanchai')
+// console.log(sum(10, 5))
+// console.log(even(2))
+// console.log(evens(3))

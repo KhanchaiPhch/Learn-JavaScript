@@ -206,3 +206,11 @@ const test6 = (num) => {
     }
 }
 // test6(5)
+// let star = ''
+// for (let i = 1; i <= 5; i++) {
+//     star = ''
+//     for (let j = 1; j <= 5; j++) {
+//         star += '*'
+//     }
+//     console.log(star)
+// }
